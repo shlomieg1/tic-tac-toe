@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  h1 {
+    text-align:center;
+    margin-top: 0;
+    font-size: 120px;
+} 
+div{
+  text-align: center;
+  }
+  .container {
+    background: grey;
+  
+   
+    min-height: 200px;
+    border-radius: 5%;
+
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  td {
+    background-color: black;
+    border: 5px solid white;
+    font-size: 80px;
+    color: #fff;
+    border-radius: 10%;
+  }
+  
+  #player {
+    padding: 1rem;
+  }
+  
+  body {
+    display: flex;
+    background-image: url('back2.jpg');
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  #copyright {
+    float: left;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    text-align: center;
+    bottom: 100px;
+      width: 100%;
+      color: rgba(73, 73, 73, 0.911);
+      size: 1500px;
+  }
+  p{
+    text-align: center;
+    letter-spacing: .57em;
+    padding: 1.5em 0em;
+    position: center;
+  
+  }
+    span {
+      text-align: center;
+        margin-top: 5px;
+        font: 700 4em/1 "Oswald", sans-serif;
+        letter-spacing: 0;
+        padding: .25em 0 .325em;
+        display: block;
+        background:
+         url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: aitf 60s linear infinite;  
+        -webkit-transform: translate3d(0,0,0);
+        -webkit-backface-visibility: hidden;
+    }
+    
+  @-webkit-keyframes aitf {
+      0% { background-position: 0% 60%; }
+      100% { background-position: 100% 50%; }
+  }
+  b{
+    font-size: 60px;
+display: flex;
+ }
+
+input{
+  block-size: 20px;
+}
+button{
+  block-size: 20px;
+}
